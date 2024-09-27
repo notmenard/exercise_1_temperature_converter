@@ -18,7 +18,7 @@ if conversion == '0':
 
 elif conversion == '1':
     converted_temp = (temperature - 32) * 5 / 9
-    print(f"\nThe temperature {temperature} °F to °C is: {round(converted_temp, 2)}")
+    print(f"\nThe temperature {temperature} °F to °C is: {round(converted_temp, 2)} °C.")
 
 else:
     print("\nInvalid character. Please try again.")
