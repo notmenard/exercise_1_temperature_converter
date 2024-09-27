@@ -15,3 +15,7 @@ conversion = input("\nSelect a conversion type: ")
 if conversion == '0':
     converted_temp = (temperature * 9 / 5) + 32
     print(f"\nThe temperature {temperature} °C to °F is: {round(converted_temp, 2)} °F.")
+
+elif conversion == '1':
+    converted_temp = (temperature - 32) * 5 / 9
+    print(f"\nThe temperature {temperature} °F to °C is: {round(converted_temp,2)}")
