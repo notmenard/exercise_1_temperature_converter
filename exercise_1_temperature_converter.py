@@ -10,3 +10,8 @@ print("0 for Celsius to Fahrenheit")
 print("1 for Fahrenheit to Celsius")
 
 conversion = input("\nSelect a conversion type: ")
+
+# Performing the appropriate conversion and printing the result.
+if conversion == '0':
+    converted_temp = (temperature * 9 / 5) + 32
+    print(f"\nThe temperature {temperature} °C to °F is: {round(converted_temp, 2)} °F.")
